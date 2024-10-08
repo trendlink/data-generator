@@ -1,0 +1,31 @@
+{
+  "name": "data-generator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.4",
+    "axios": "^1.4.0",
+    "pinia": "^2.1.4",
+    "quasar": "^2.12.2",
+    "sass": "^1.32.0",
+    "sass-migrator": "^1.7.3",
+    "vue": "^3.2.47",
+    "vue-router": "^4.2.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@quasar/vite-plugin": "^1.4.1",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "eslint": "^9.10.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "vite": "^4.3.9"
+  }
+}
